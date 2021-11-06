@@ -1,0 +1,37 @@
+$(function(){
+    $('.btn-forgot').click(function(){
+        $('.forgot').css({
+            visibility:'visible'
+        });
+    });
+    $('.forgot').mouseenter(function(){
+        $('.forgot').css({
+            visibility:'visible'
+        });
+    });
+    $('.forgot').mouseleave(function(){
+        $('.forgot').css({
+            visibility:'hidden'
+        });
+    });
+    $('.forms-login-by button[type="button"]').click(function(){
+        $('.login-by').css({
+            visibility:'hidden'
+        });
+    });
+    $('.li-login-by').click(function(){
+        $('.login-by').css({
+            visibility:'visible'
+        });
+    });
+    $('.forms-tell-superadmin button[type="button"]').click(function(){
+        $('.tell-superadmin').css({
+            visibility:'hidden'
+        });
+    });
+    $('.li-tell-sa').click(function(){
+        $('.tell-superadmin').css({
+            visibility:'visible'
+        });
+    });
+});
