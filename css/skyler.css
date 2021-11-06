@@ -1,0 +1,1097 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    background: #fff;
+}
+.bungkus-header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/logo-sponsor/banner-plaza-baju-wanita.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1366px ;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 150px;
+    
+}
+header ul{
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+}
+header ul li{
+    float: left;
+    padding-left: 8px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: "calibri";
+    border-radius: 50%;
+    border: solid 3px;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    margin-left: 30px;
+}
+header ul li p{
+    padding-top: 10px;
+}
+header ul li img{
+    width: 60px;
+    height: 70px;
+}
+.atas ul{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.atas ul li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-family: "calibri";
+    padding-bottom: 5px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0;
+    border: 0;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+}
+.atas ul li span{
+    padding-left: 7px;
+}
+.atas ul li:hover{
+    transition: all 0.2s;
+    border-bottom: solid 5px #fff;
+    cursor:pointer;
+}
+.atas img{
+    width: 100px;
+    height: 30px;
+    top: -6px;
+    position: absolute;
+}
+.app1{
+    left: 105px;
+}
+.app2{
+    left: 210px;
+}
+.atas{
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-bottom: solid 0px lightgray;
+}
+header input{
+    width: 600px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 30px;
+    background: white;
+    font-family: "calibri";
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+header button{
+    border: 0;
+    width: 90px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    transition: all 0.5s ;
+    margin-left: -5px;
+     
+}
+header button:hover{
+    transition: all 0.5s;
+    background: #fff;
+    color: #000;
+    border: solid 1px #fff; 
+}
+.bawah{
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-top: solid 0px lightgray;
+    border-bottom: solid 0px lightgray;
+    margin-top: -10px;
+}
+.subheader{
+    width: 100%;
+    height: 60px;
+    background: rgba(255,255,255,.5);
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px #004fa7;
+}
+header img{
+    width: 120px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.subheader img{
+    width: 68px;
+    margin-left: 90px;
+    position: absolute;
+}
+.subheader form{
+    margin-left: 300px;
+    margin-top: 7px;
+}
+.shop{
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    right: 310px;
+    top: 8px;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.shop a{
+    color: black;
+}
+.subheader select{
+    width: 80px;
+    height: 45px;
+    font-family: "calibri";
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px lightgray;
+}
+.subheader option{
+    padding-left: 10px;
+}
+.subheader input{
+    width: 500px;
+    height: 45px;
+    border: 0;
+    padding-left: 10px;
+    font-family: "calibri";
+    font-size: 15px;
+    border-top: solid 1px lightgray;
+    
+    border-bottom: solid 1px lightgray;
+    margin-left: -4px;
+}
+.subheader button{
+    border: 0;
+    width: 100px;
+    height: 45px;
+    border-radius: 0px 5px 5px 0px;
+    background: #004fa7;
+    color: white;
+    margin-left: -4px;
+}
+.subheader button:hover{
+    transition: all 0.3s;
+    background: white;
+    color: #6d6d6d;
+    border: solid 1px lightgray;
+}
+.menu-hamburger{
+    background: #004fa7;
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    right: 70px;
+    top: 7px;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+}
+.menu-hamburger span{
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.menu-hamburger:hover{
+    transition: all 0.3s;
+    background: white;
+    color: #6d6d6d;
+    border: solid 1px lightgray;
+    cursor: pointer;
+}
+#bawah-subheader{
+    width: 100%;
+    height: 40px;
+    margin-top: -2px;
+    visibility: hidden;
+    background: rgba(255,255,255,.5);
+    border-bottom: solid 5px #004fa7;
+}
+.in-bawah-subheader{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.in-bawah-subheader ul{
+    list-style: none;
+}
+.in-bawah-subheader li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 35px;
+    font-family: "calibri";
+    font-weight: bold;
+}
+.in-bawah-subheader li:hover{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.in-bawah-subheader ul ul{
+    display: none;
+    clear: both;
+}
+.in-bawah-subheader li li{
+    float: none;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+.in-bawah-subheader ul li:hover ul{
+    display: block;
+}
+.warna{
+    width: 500px;
+    margin-top:50px;
+}
+.top{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #004fa7;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    color: white;
+    font-size: 30px;
+    display: none;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px #004fa7;
+}
+.top:hover{
+    color: #004fa7;
+    background: #fafafa;
+    transition: all 0.3s;
+}
+.top:focus{
+    color: white;
+}
+.top span{
+    padding-left: 9px;
+    padding-top: 7px;
+}
+.promo{
+    width: 700px;
+    height: 110px;
+    
+    position: absolute;
+    top: 40px;
+    right: 400px;
+}
+.login,.registrasi{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px lightgray;
+    border: solid 0px lightgray;
+    display: none;
+}
+.registrasi{
+    right: 120px;
+}
+.bantuan{
+    width: 155px;
+    height: 260px;
+    position: absolute;
+    top: 50px;
+    right: 220px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px lightgray;
+    border: solid 0px lightgray;
+    display: none;
+}
+#triangle{
+    position: absolute;
+    top: -15px;
+    font-size: 20px;
+    right: 50px;
+    color: #fff;
+}
+#triangle-top{
+    position: absolute;
+    top: -15px;
+    font-size: 20px;
+    right: 60px;
+    color: #fff;
+}
+#triangle-top-supplier{
+    position: absolute;
+    top: -15px;
+    font-size: 20px;
+    right: 150px;
+    color: #fff;
+}
+.login ul,.registrasi ul,.bantuan ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.login ul li,.registrasi ul li,.bantuan ul li{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "calibri";
+    font-size: 15px;
+    color: #000;
+}
+.login ul li:hover{
+    background: #004fa7;
+    color: white;
+    border-top: solid 0px lightgray;
+    border-bottom: solid 0px lightgray;
+    cursor: pointer;
+}
+.registrasi ul li:hover{
+    background: #004fa7;
+    color: white;
+    border-top: solid 0px lightgray;
+    border-bottom: solid 0px lightgray;
+    cursor: pointer;
+}
+.bantuan ul li:hover{
+    background: #004fa7;
+    color: white;
+    border-top: solid 0px lightgray;
+    border-bottom: solid 0px lightgray;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+    height: 1000px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-side{
+    width: 300px;
+    height: 1000px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    position: absolute;
+}
+.right-side{
+    position: fixed;
+    width: 40px;
+    height: 296px;
+    background: #004fa7;
+    right: 15px;
+    bottom: 150px;
+    display: none;
+    
+}
+.right-side ul{
+    list-style: none;
+}
+.right-side li{
+    height: 37px;
+    padding-left: 10px;
+    
+    font-size: 17px;
+}
+.right-side li:hover{
+    background: #000;
+    cursor: pointer;
+}
+.right-side ul ul{
+    transition: all 0.3s ease-out;
+    display: none;
+}
+.right-side li li{
+    position: absolute;
+    top: 0;
+    background: white;
+}
+.right-side ul li:hover ul{
+    display: block;
+    transition: all 0.3s ease-out;
+    right: 100px;
+}
+.right-side ul li p{
+    color: white;
+    font-family: "calibri";
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+}
+#li-kat-satu p,#li-kat-dua p,#li-kat-tiga p,#li-kat-empat p,#li-kat-lima p,#li-kat-delapan p{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#li-kat-enam p{
+    margin-top: 5px;
+    margin-left: 1px;
+}
+#li-kat-tujuh p{
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.content{
+    width: 905px;
+    height: auto;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+}
+.isi-content{
+    width: 100%;
+    height: 300px;
+    border: solid 1px;
+}
+#content-tsirt,#content-dress,#content-rok,#content-jeans,#content-baby,#content-muslim,#content-kemeja,#content-blezer{
+    margin-top: 20px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    border-top: solid 7px #004fa7;
+}
+.footer-atas{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/logo-sponsor/modern-store-design-9.jpg);
+    background-size: 1366px;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.shadow-footer{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0,0,0,0.5);
+}
+.footer-bawah{
+    width: 100%;
+    height: 90px;
+    background: #f8f8f8;
+}
+.regis-pembeli,.regis-penjual,.login-penjual,.login-pembeli{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    top: 0;
+    z-index: 9999;
+    display: none;
+}
+.minitron{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/logo-sponsor/modern-store-design-9.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 400px 150px;
+}
+.dark-minitron{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+.dark-minitron p{
+    color: white;
+    top: 100px;
+    position: absolute;
+    left: 110px;
+    font-family: "calibri";
+    font-size: 20px;
+    font-weight: bold;
+}
+.formulir-pembeli,.formulir-penjual{
+    position: absolute;
+    right: 100px;
+    background: #fff;
+    width: 400px;
+    height: 600px;
+    border-radius: 3px;
+    top: 50px;
+    border-top: solid 7px #004fa7;
+    
+}
+.formulir-penjual ul,.formulir-pembeli ul{
+    list-style: none;
+    margin-left: 85px;
+    margin-top: 60px;
+}
+.formulir-penjual li,.formulir-pembeli li{
+    font-family: "calibri";
+    float: left;
+    font-size: 15px;
+    color: #004fa7;
+}
+.formulir-penjual li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.formulir-pembeli li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.formulir-pembeli img,.formulir-penjual img{
+    position: absolute;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.formulir-pembeli form,.formulir-penjual form{
+    margin-left: 50px;
+}
+.formulir-pembeli input,.formulir-penjual input{
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 40px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    background: #fafafa;
+    font-family: "calibri";
+}
+.formulir-pembeli button,.formulir-penjual button{
+    width: 97px;
+    margin-top: 10px;
+    font-family: "calibri";
+    height: 40px;
+    border: 0;
+    border-radius: 3px;
+}
+#back{
+    background: #6d6d6d;
+    color: white;
+}
+#reset{
+    background: #c50808;
+    color: white;
+}
+#submit{
+    background: #004fa7;
+    color: white;
+}
+#back:hover{
+    border: solid 1px lightgray;
+    background: #fafafa;
+    color: #6d6d6d;
+}
+#reset:hover{
+    border: solid 1px lightgray;
+    background: #fafafa;
+    color: #6d6d6d;
+}
+#submit:hover{
+    border: solid 1px lightgray;
+    background: #fafafa;
+    color: #6d6d6d;
+}
+.readme-penjual{
+    width: 750px;
+    height: 550px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    background-image: url(../img/logo-sponsor/laptop-png-17.png);
+    background-repeat: no-repeat;
+    background-size: 750px 500px;
+}
+.readme-penjual img{
+    width: 570px;
+    height: 375px;
+    position: absolute;
+    left: 90px;
+    top: 54px;
+}
+.ketentuan-penjual,.kebijakan-penjual,.ketentuan-pembeli,.kebijakan-pembeli{
+    width: 570px;
+    height: 375px;
+    position: absolute;
+    background: white;
+    left: 90px;
+    top: 54px;
+    overflow: auto;
+    display: none;
+}
+.ketentuan-pembeli p{
+    padding: 20px;
+    font-family: "calibri";
+    font-size: 14px;
+    text-align: justify;
+}
+.readme-login-pembeli{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left:270px;
+    top: 40px;
+    background-image: url(../img/logo-sponsor/instagram.png);
+    background-repeat: no-repeat;
+}
+.readme-login-pembeli img{
+    width: 241px;
+    height: 430px;
+    position: absolute;
+    top: 89px;
+    left: 124px;
+    transition: all 1s;
+}
+.forms-login-pembeli{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    background: white;
+    border-radius: 3px;
+    right: 300px;
+    top: 200px;
+    border-top: solid 7px #004fa7;
+}
+.forms-login-pembeli form{
+    margin-left: 35px;
+}
+.forms-login-pembeli input{
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px lightgray;
+    background: #fafafa;
+    font-family: "calibri";
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.forms-login-pembeli button{
+    width: 113px;
+    height: 40px;
+    border-radius: 3px;
+    border: 0;
+    font-family: "calibri";
+    margin-top: 10px;
+    font-size: 15px;
+}
+.forms-login-pembeli button:hover{
+    border: solid 1px lightgray;
+    background: #fafafa;
+    color: #6d6d6d;
+    transition: all 0.3s;
+}
+.minitron-login{
+    width: 100%;
+    height: 80px;
+    background-image: url(../img/logo-sponsor/modern-store-design-9.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom center;
+}
+.minitron-login img{
+    width: 70px;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+.in-shadow-footer{
+    width: 90%;
+    margin: 0 auto;
+}
+.in-shadow{
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 1px white;
+}
+.in-shadow-tengah{
+    height: 70px;
+    border-bottom: solid 1px white;
+    background: white;
+}
+.in-shadow-tengah img{
+    width: 80px;
+    height: 70px;
+}
+.in-shadow ul,.in-shadow-tengah ul{
+    list-style: none;
+    margin-top: -10px;
+}
+.in-shadow-tengah ul{
+    margin-left: 23px;
+}
+.in-shadow-tengah ul li{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.in-shadow ul li{
+    float: left;
+    color: white;
+    padding-left: 40px;
+    font-family:"calibri";
+    font-size: 17px;
+    padding-top: 10px;
+}
+.in-shadow button{
+    font-size: 25px;
+    border-radius: 50%;
+    border: solid 1px white;
+    width: 50px;
+    height: 50px;
+    background: none;
+}
+.in-shadow button span{
+    padding-top: 8px;
+    padding-left: 2px;
+}
+#in-satu,#in-dua,#in-tiga{
+    border-bottom: solid 1px white;
+}
+#in-satu,#in-dua{
+    height: 350px;
+}
+#in-tiga{
+    height: 270px;
+}
+.content-footer{
+    border: solid 0px white;
+    float: left;
+    margin-right: 10px;
+}
+.content-footer-bawah{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "calibri";
+    font-size: 15px;
+}
+.content-footer-bawah span{
+    color: #004fa7;
+    text-decoration: underline;
+}
+.content-footer-bawah span:hover{
+    cursor: pointer;
+}
+#content-id-satu,#content-id-dua,#content-id-tiga{
+    width: 395px;
+    height: 250px;
+}
+#content-id-satu p,#content-id-dua p{
+    color: white;
+    font-family: "calibri";
+    font-size: 20px;
+    padding-top: 10px;
+}
+#content-id-satu p{
+    padding-left: 100px;
+}
+#content-id-dua p{
+    padding-left: 130px;
+}
+#content-id-satu img,#content-id-dua img{
+    padding-left: 50px;
+    width: 300px;
+    position: absolute;
+}
+#content-id-tiga p{
+    color: white;
+    font-family: "calibri";
+    font-size: 20px;
+}
+.p-keamanan{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#p-jasa{
+    margin-left: 80px;
+}
+#img-keamanan{
+    width: 340px;
+    margin-top: 5px;
+}
+#img-jasa{
+    width: 300px;
+}
+#cf-satu,#cf-dua,#cf-tiga,#cf-empat,#cf-lima{
+    width: 233px;
+    height: 280px;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+#cf-satu p,#cf-dua p,#cf-tiga p,#cf-empat p,#cf-lima p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+#cf-satu ul,#cf-dua ul,#cf-tiga ul{
+    list-style: none;
+    margin-left: 0px;
+}
+#cf-satu li,#cf-dua li,#cf-tiga li{
+    font-family: "calibri";
+    font-size: 15px;
+    padding-left: 10px;
+}
+#cf-satu li:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all 0.3s;
+}
+#cf-dua li:hover{
+    cursor: pointer;
+}
+#cf-tiga li:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all 0.3s;
+}
+.newsletter{
+    height: 120px;
+    background: white;
+    color: black;
+    font-family: "calibri";
+    font-size: 16px;
+}
+.newsletter form{
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.newsletter input[type="text"]{
+    width: 220px;
+    height: 30px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 3px;
+    border: solid 1px lightgray;
+    background: #fafafa;
+    font-family: "calibri";
+    font-size: 15px;
+}
+.newsletter input[type="checkbox"]{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.newsletter button{
+    border: 0;
+    background: #004fa7;
+    color: white;
+    width: 220px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.newsletter button:hover{
+    border: solid 1px lightgray;
+    background: #fafafa;
+    color: #6d6d6d;
+}
+#img-follow{
+    margin-left: 40px;
+}
+#img-logo-footer{
+    margin-top: 10px;
+    width: 110px;
+}
+#in-tiga p{
+    color: white;
+    font-family: "calibri";
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+#live-chat:hover{
+    background: white;
+    color: black;
+    transition: all 0.3s;
+}
+#bantuan{
+    background: #004fa7;    
+    height: 40px;
+    padding-top: 8px;
+}
+.sub-bawah{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.sub-bawah ul{
+    list-style: none;
+}
+.sub-bawah ul li{
+    color: white;
+    font-family: "calibri";
+    font-size: 16px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 900;
+    line-height: 38px;
+}
+.sub-bawah ul ul{
+    display: none;
+}
+.sub-bawah ul li li{
+    float: none;
+    position: relative;
+    color: black;
+}
+.sub-bawah ul li li span{
+    color: white;
+    float: right;
+    padding-top: 10px;
+}
+.sub-bawah ul li:hover ul{
+    display: block;
+}
+.sub-bawah ul li:hover{
+    border-bottom: solid 3px white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.sub-bawah ul li ul li:hover{
+    border: 0;
+    background: #004fa7;
+    color: white;
+}
+.sub-bawah ul li ul li:hover .sub-in-li-kategori{
+    display: block;
+}
+.in-li-kategori{
+    position: absolute;
+    background: white;
+    width: 200px;
+    color: black;
+    margin-top: 2px;
+}
+.sub-in-li-kategori{
+    width: 985px;
+    height: 310px;
+    background: rgba(255,255,255,.5);
+    position: absolute;
+    left: 200px;
+    display: none;
+}
+#id-sub-in-satu{
+    top: 0;
+}
+#id-sub-in-dua{
+    top: -38px;
+}
+#id-sub-in-tiga{
+    top: -76px;
+}
+#id-sub-in-empat{
+    top: -114px;
+}
+#id-sub-in-lima{
+    top: -152px;
+}
+#id-sub-in-enam{
+    top: -190px;
+}
+#id-sub-in-tujuh{
+    top: -228px;
+}
+#id-sub-in-delapan{
+    top: -266px;
+}
+.column-kategori{
+    border: solid 1px;
+    height: 100%;
+    float:left;
+}
+#ck-satu{
+    width: 150px;
+}
+#ck-dua{
+    width: 250px;
+}
+#ck-tiga{
+    width: 585px;
+}
+.isi-column-kategori{
+    width: 194.3px;
+    height: 50%;
+    background: rgba(100,0,200,.5);
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    float: left;
+}
+.pengaturan-supplier{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px lightgray;
+    border: solid 0px lightgray;
+    display: none;
+}
+.pengaturan-akun,.pengaturan-barang,.logout{
+    list-style: none;
+    padding-top: 10px;
+}
+.content-pengaturan-barang-supplier{
+    width: auto;
+    height: auto;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 227px;
+}
+.content-pesanan{
+    width: 905px;
+    height: 600px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+}
+.content-keranjang{
+    width: 905px;
+    height: auto;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
